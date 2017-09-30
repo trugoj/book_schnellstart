@@ -12,7 +12,7 @@ System.config({
     meta: {
         'typescript': { 'exports': 'ts' }
     },
-    paths: { 'npm': 'https://unpkg.com/' },
+    paths: { 'npm:': 'https://unpkg.com/' },
     map: {
         '@angular/common': 'npm:@angular/common@' + version + '/bundles/common.umd.js',
         '@angular/compiler': 'npm:@angular/compiler@' + version + '/bundles/compiler.umd.js',
